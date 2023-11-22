@@ -1,0 +1,20 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+.header-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.dark-mode .mode-icon {
+  color: #fff;
+}
+
+.light-mode .mode-icon {
+  color: #212121;
+}
