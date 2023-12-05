@@ -1,12 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTheme } from './ThemeContext';
-import moonImage from './images/moon.png';
-import sunImage from './images/sun.png';
 import './Header.css';
 
 const Header = () => {
-  const { darkMode, toggleTheme } = useTheme();
+  const { darkMode, toggleTheme, modeText } = useTheme();
 
   return (
     <header className={`header ${darkMode ? 'dark-mode' : 'light-mode'}`}>
@@ -15,19 +13,20 @@ const Header = () => {
       </div>
       <nav className="header-nav">
         <ul>
-          <li><Link to="/projects">Projects</Link></li>
-          <li><Link to="/skills">Skills</Link></li>
-          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/projects">PROJECTS</Link></li>
+          <li><Link to="/skills">SKILLS</Link></li>
+          <li><Link to="/contact">CONTACT</Link></li>
         </ul>
       </nav>
       <div className="header-mode-switch">
-        <button type="button" onClick={toggleTheme}>
-          <img 
-            src={darkMode ? moonImage : sunImage}
-            alt="Toggle Mode"
-            className="mode-icon"
-          />
-        </button>
+        <input
+          type="checkbox"
+          checked={darkMode}
+          onChange={() => toggleTheme(!darkMode)}
+          id="mode-switch"
+        />
+        <label htmlFor="mode-switch" className="slider"></label>
+        <p>{modeText}</p>
       </div>
     </header>
   );
