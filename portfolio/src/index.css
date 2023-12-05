@@ -7,3 +7,44 @@
   background-color: #fff;
   color: #212121;
 }
+
+.light-mode a:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.light-mode a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.light-mode a:focus {
+  text-decoration: none;
+  color: black;
+}
+
+.light-mode a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.dark-mode a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+.dark-mode a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.dark-mode a:focus {
+  text-decoration: none;
+  color: white;
+}
+
+.dark-mode a:hover {
+  text-decoration: none;
+  color: white;
+}
+
