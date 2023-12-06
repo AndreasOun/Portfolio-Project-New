@@ -1,0 +1,28 @@
+.title-container {
+    text-align: center;
+    margin: 40px 0;
+  }
+  
+  .title {
+    font-size: 2.5em;
+    position: relative;
+    display: inline-block;
+  }
+  
+  .title::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #333;
+    bottom: 0;
+    left: 0;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+  }
+  
+  .title:hover::before {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }

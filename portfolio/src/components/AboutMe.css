@@ -2,10 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 50px; 
+    padding: 50px;
+    padding-left: 100px; 
   }
 
   .text-container {
     width: 50%;
+  }
+  
+  .image-container {
+    width: 40%;
+    position: relative;
+  }
+  
+  .profile-image {
+    width: 60%;
+    border-radius: 8px;
   }
   
