@@ -1,0 +1,27 @@
+.skills-container {
+    margin-top: 20px;
+  }
+
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .skill-item {
+    text-align: center;
+    width: 120px; 
+  }
+  
+  .fa {
+    font-size: 2em;
+    margin-bottom: 10px;
+  }
+  
+
+
+  .skill-item:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-out;
+  }
+  
