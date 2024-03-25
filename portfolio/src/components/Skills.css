@@ -1,8 +1,12 @@
-.skills-container {
+.skills-container, 
+.other-container {
     margin-top: 20px;
+    padding-left: 100px;
+  
   }
 
-  .skills-list {
+  .skills-list,
+  .other-list {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
@@ -16,6 +20,10 @@
   .fa {
     font-size: 2em;
     margin-bottom: 10px;
+  }
+
+  .skill-icon {
+    font-size: 50px;
   }
   
 
