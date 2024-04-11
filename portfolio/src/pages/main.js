@@ -59,4 +59,15 @@ const Skills = () => {
   );
 };
 
-export { Title, AboutMe, Skills };
+const Profile = () => {
+  return (
+    <div>
+      <Title />
+      <AboutMe />
+      <Skills />
+    </div>
+  );
+};
+
+
+export default Profile;

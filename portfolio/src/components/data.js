@@ -23,4 +23,8 @@ const otherSkills = [
     { name: 'Webpack', icon:'devicon-webpack-plain colored'},
 ]
 
-export { aboutMeText, skills, otherSkills };
+const projects = [
+
+]
+
+export { aboutMeText, skills, otherSkills, projects };
