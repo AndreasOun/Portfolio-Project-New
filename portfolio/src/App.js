@@ -1,8 +1,6 @@
 import React from 'react';
 import Header from './components/Header';
-import AboutMe from './components/AboutMe';
-import Skills from './components/Skills';
-import Title from './components/Title';
+import { Title, AboutMe, Skills } from './pages/main';
 import './App.css';
 
 const App = () => {

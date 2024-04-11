@@ -1,7 +1,34 @@
 import React from 'react';
-import { skills, otherSkills } from './data';
-import './Skills.css';
+import { aboutMeText, skills, otherSkills } from '../components/data';
+import '../styles/Title.css';
+import '../styles/AboutMe.css';
+import '../styles/Skills.css';
 
+const Title = () => {
+  return (
+    <div className="title-container">
+      <h1 className="title">Hello, I'm a Software Developer</h1>
+    </div>
+  );
+};
+
+const AboutMe = () => {
+  return (
+    <div className="about-me-container">
+      <div className="text-container">
+        <h2>About Me</h2>
+        <p>{aboutMeText}</p>
+      </div>
+      <div className="image-container">
+        <img
+          src={process.env.PUBLIC_URL + '/images/profile.png'}
+          alt="Profile"
+          className="profile-image"
+        />
+      </div>
+    </div>
+  );
+};
 
 const Skills = () => {
   return (
@@ -31,5 +58,5 @@ const Skills = () => {
     </div>
   );
 };
-  
-export default Skills;
+
+export { Title, AboutMe, Skills };
