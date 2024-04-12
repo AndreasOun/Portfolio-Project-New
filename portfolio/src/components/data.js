@@ -24,7 +24,16 @@ const otherSkills = [
 ]
 
 const projects = [
-
+  {
+    title: 'Netflix Clone',
+    description: 'dummy data',
+    techUsed: [
+      { name: 'Javascript', icon: 'devicon-javascript-plain colored' },
+      { name: 'React', icon: 'devicon-react-original colored' }
+    ],
+    githubUrl: 'dummy data',
+    liveUrl: 'dummy data'
+  },
 ]
 
 export { aboutMeText, skills, otherSkills, projects };

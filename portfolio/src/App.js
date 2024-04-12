@@ -3,6 +3,7 @@ import { Route, Routes, Navigate } from 'react-router-dom';
 import Header from './components/Header';
 import Profile from './pages/main';
 import './App.css';
+import Projects from './pages/projects';
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Routes>
         <Route path="/" element={<Navigate to="/pages/main" />} />
         <Route exact path="/pages/main" element={<Profile />} />
+        <Route exact path="/pages/projects" element={<Projects/>} />
       </Routes>
     </div>
   );

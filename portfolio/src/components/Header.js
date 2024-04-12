@@ -13,8 +13,8 @@ const Header = () => {
       </div>
       <nav className="header-nav">
         <ul>
-          <li><Link to="/projects">PROJECTS</Link></li>
-          <li><Link to="/contact">CONTACT</Link></li>
+          <li><Link to="/pages/projects">PROJECTS</Link></li>
+          <li><Link to="/pages/contact">CONTACT</Link></li>
         </ul>
       </nav>
       <div className="header-mode-switch">
