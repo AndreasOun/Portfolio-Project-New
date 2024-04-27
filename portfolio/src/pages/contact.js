@@ -1,11 +1,12 @@
 import React from "react";
 import '../styles/Contact.css';
+import config from "../config";
 
 const Contact = () => {
     return (
       <div className="contact-container">
         <h2>Contact Me</h2>
-        <form action="YOUR_FORMSPREE_ENDPOINT" method="POST">
+        <form action={config.formSpreeEndpoint} method="POST">
           <label htmlFor="name">Name:</label>
           <input type="text" id="name" name="name" required />
           <label htmlFor="email">Email:</label>
