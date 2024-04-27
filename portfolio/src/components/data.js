@@ -1,7 +1,7 @@
 
 
 const aboutMeText = 
-'ellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo. Quisque sit amet est et sapien ullamcorper pharetra. Vestibulum erat wisi, condimentum sed, commodo vitae, ornare sit amet, wisi. Aenean fermentum, elit eget tincidunt condimentum, eros ipsum rutrum orci, sagittis tempus lacus enim ac dui. Donec non enim in turpis pulvinar facilisis. Ut felis. Praesent dapibus, neque id cursus faucibus, tortor neque egestas augue, eu vulputate magna eros eu erat. Aliquam erat volutpat. Nam dui mi, tincidunt quis, accumsan porttitor, facilisis luctus, metus';
+'As an enthusiastic software developer, I’ve been immersed in the world of JavaScript, React, and its ecosystem, creating personal projects that showcase my skills. Currently, I’m expanding my knowledge by learning Java. My technical background includes completing Helsinki University’s Java courses and the Odin Project’s Frontend Developer course. I’m actively seeking software engineer positions and open to internships. Check out my Portfolio! Let’s build something amazing together! 🚀';
 
 const skills = [
     { name: 'Java', icon: 'devicon-java-plain'},
@@ -34,6 +34,15 @@ const projects = [
     githubUrl: 'dummy data',
     liveUrl: 'dummy data'
   },
+  {
+    title: 'Ecommerce platform',
+    description: 'dummy data',
+    techUsed: [
+      { name: 'Javascript', icon: 'devicon-javascript-plain colored' },
+      { name: 'React', icon: 'devicon-react-original colored' },
+      { name: 'nodeJS', icon: 'devicon-nodejs-plain colored'}
+    ]
+  }
 ]
 
 export { aboutMeText, skills, otherSkills, projects };
